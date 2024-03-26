@@ -1,140 +1,55 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title="Ian Chen - Engineer, Educator, Entrepreneur",
-    page_icon="👨🏻‍💻",
-    layout="centered",  # centered or wide
-    initial_sidebar_state="auto",
-)
+# Title of the profile page
+st.title('Joel Zhu')
 
-col1, col2 = st.columns([0.3, 0.7])
-with col1:
-    st.markdown(
-        """
-    <style>
-    .profile-img img {
-        width: 100%;
-        border-radius: 50%;
-    }
-    </style>
+# Add a profile picture
+# st.image('path_to_image.jpg', width=150)
 
-    <div class="profile-img">
+# Contact Information
+st.subheader('Contact Information')
+st.write('Phone: 425-652-3015')
+st.write('Email: zhu1998@uw.edu')
+st.write('Portfolio: https://maifile.cn/est')
 
-    ![](https://avatars.githubusercontent.com/u/7678108?v=4)
-    </div>
-    """,
-        unsafe_allow_html=True,
-    )
-    # st.image('https://avatars.githubusercontent.com/u/7678108?v=4')
-with col2:
-    st.markdown(
-        """
-    # Ian Chen (He/Him)
-                
-    - Instructor at [Lighthouse Labs](https://www.lighthouselabs.ca/)
-    - Engineer at [Clio](https://www.clio.com/)
-    """
-    )
+# Work Experience
+st.header('Work Experience')
 
-st.markdown(
-    """
-# Projects
+# Experience 1
+st.subheader('UX Design Intern | OKKI')
+st.write('07/2023 – 09/2025')
+st.write('''
+- Designed and launched 5+ product features used by 1000+ users daily.
+- Surveyed 50+ users and created wireframes.
+- Collaborated with product managers and developers on an AI-SaaS product.
+''')
 
-- [Project 1](https://www.google.com)
-- [Project 2](https://www.google.com)
-- [Project 3](https://www.google.com)
-"""
-)
+# Experience 2
+st.subheader('UX Designer | Uxpie')
+st.write('04/2023 – 07/2025')
+st.write('''
+- Managed the redesign of the order feature for DrayEasy, improving usability.
+- Discovered improvements by conducting competitive analysis and user interviews.
+- Organized interviews with 11 users to develop core insights for redesign.
+''')
 
-st.markdown(
-    """
-# Contact
-""")
-col1, col2, col3 = st.columns(3)
+# Education
+st.header('Education')
 
-# Card with image and text
-for col in [col1, col2, col3]:
-    col.markdown(
-        """
-        <style>
-        .profile-img img {
-            width: 100%;
-            border-radius: 10%;
-        }
-        </style>
+# Education 1
+st.subheader('University of Washington')
+st.write('M.S. Technology Innovation')
+st.write('Sep 2023 - Mar 2025, Seattle')
 
-        <div class="profile-img">
+# Education 2
+st.subheader('Chongqing University')
+st.write('B. Architecture')
+st.write('Sep 2016 - Mar 2021, China')
 
-        ![](https://avatars.githubusercontent.com/u/7678108?v=4)
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-
-col1, col2, col3 = st.columns(3)
-
-# Card with image and text
-for col in [col1, col2, col3]:
-    col.markdown(
-        """
-        <style>
-        .profile-img img {
-            width: 100%;
-            border-radius: 10%;
-        }
-        </style>
-
-        <div class="profile-img">
-
-        ![](https://avatars.githubusercontent.com/u/7678108?v=4)
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-
-
-ft = """
-<style>
-a:link , a:visited{
-color: #BFBFBF;  /* theme's text color hex code at 75 percent brightness*/
-background-color: transparent;
-text-decoration: none;
-}
-
-a:hover,  a:active {
-color: #0283C3; /* theme's primary color*/
-background-color: transparent;
-text-decoration: underline;
-}
-
-#page-container {
-  position: relative;
-  min-height: 10vh;
-}
-
-footer{
-    visibility:hidden;
-}
-
-.footer {
-position: relative;
-left: 0;
-top:230px;
-bottom: 0;
-width: 100%;
-background-color: transparent;
-color: #808080; /* theme's text color hex code at 50 percent brightness*/
-text-align: left; /* you can replace 'left' with 'center' or 'right' if you want*/
-}
-</style>
-
-<div id="page-container">
-
-<div class="footer">
-<p style='font-size: 0.875em;'>Made with <a style='display: inline; text-align: left;' href="https://streamlit.io/" target="_blank">Streamlit</a><br 'style= top:3px;'>
-with <img src="https://em-content.zobj.net/source/skype/289/red-heart_2764-fe0f.png" alt="heart" height= "10"/><a style='display: inline; text-align: left;' href="https://github.com/sape94" target="_blank"> by sape94</a></p>
-</div>
-
-</div>
-"""
-st.write(ft, unsafe_allow_html=True)
+# Skills
+st.header('Skills and Tools')
+st.write('''
+- Design: Figma, Adobe Photoshop, Adobe Illustrator, 3D Modelling Software
+- Programming: Python
+- Research: Usability Testing, Competitive Analysis, A/B Testing
+''')
