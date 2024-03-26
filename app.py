@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Title of the profile page
-st.title('Joel Zhu')
+st.title("Hi, I am Joel :)")
 
 # Add a profile picture
 # st.image('path_to_image.jpg', width=150)
@@ -46,8 +46,8 @@ st.subheader('Chongqing University')
 st.write('B. Architecture')
 st.write('Sep 2016 - Mar 2021, China')
 
-# Skills
-st.header('Skills and Tools')
+# Interests and Skills
+st.header('Interests and Skills')
 st.write('''
 - Design: Figma, Adobe Photoshop, Adobe Illustrator, 3D Modelling Software
 - Programming: Python
