@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Profile picture
-st.image('ZZZ.webp', width=300)
+st.image('R.jpeg', width=300)
 
 # Title of the profile page
 st.title("Hi, I am Joel")
