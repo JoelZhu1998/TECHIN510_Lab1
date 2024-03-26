@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.image('ZZZ.webp', width=150)
+
 st.title("Hi, I am Joel")
 # Title of the profile page
 st.title('Joel Zhu')
