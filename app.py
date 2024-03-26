@@ -1,8 +1,11 @@
+import streamlit as st
+
+st.title("Hi, I am Joel")
 # Title of the profile page
-st.title("Hi, I am Joel :)")
+st.title('Joel Zhu')
 
 # Add a profile picture
-st.image('DALL·E 2024-03-26 16.16.33 - Create a professional and gender-neutral avatar with a friendly demeanor. The avatar should have a neutral background to ensure it is versatile for va.webp', width=150)
+# st.image('path_to_image.jpg', width=150)
 
 # Contact Information
 st.subheader('Contact Information')
@@ -51,3 +54,4 @@ st.write('''
 - Programming: Python
 - Research: Usability Testing, Competitive Analysis, A/B Testing
 ''')
+
