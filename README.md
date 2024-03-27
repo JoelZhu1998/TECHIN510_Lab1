@@ -1,6 +1,6 @@
 # TECHIN510_Lab1
 
-A personal website for TECHIN 510 Lab 1.
+A personal website for TECHIN510_Lab1.
 
 ## How to Run
 
@@ -18,11 +18,10 @@ pip install -r requirements.txt
 
 ## Lessons Learned
 
+- How to clone the repository to desktop and commit&push it.
 - How to use Streamlit to create a simple website
 - How to use requirements.txt to manage Python dependencies
-- How to use GitHub Actions to deploy a website to Azure App Service
 
 ## Questions / Uncertainties
 
-- What if I want to make the profile picture round?
-- How to use a two column layout?
+- How to make the website responsive?
