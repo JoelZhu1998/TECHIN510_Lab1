@@ -1,6 +1,6 @@
 # TECHIN510_Lab1
 
-A personal website for TECHIN510_Lab1.
+A personal profile that demonstrate my education, projects, interests and skills.
 
 ## How to Run
 
